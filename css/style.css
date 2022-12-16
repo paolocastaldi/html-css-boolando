@@ -82,7 +82,7 @@
 }
 
 .tag-discount {
-    background-color: #CF393E;
+    background-color: red;
     margin-right: 2px;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .tag-green {
-    background-color: #45835D;
+    background-color: green;
 }
 
 .tag-green::after {
