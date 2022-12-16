@@ -95,7 +95,41 @@
 }
 
 .tag-green::after {
-    content: "Sostenibilit\00E0";
+    content: "Sostenibilità";
+}
+
+.card-info {
+    line-height: 0px;
+    margin-top: 8px;
+}
+
+.item-name {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 11px 0;
+}
+
+.item-brand, .item-price-new, .item-price-old {
+    font-size: 10px;
+}
+
+.item-price-new, .item-price-old {
+    display: inline-block;
+
+}
+
+.item-price-new {
+    color: red;
+    font-weight: bold;
+}
+
+.item-price-old {
+    text-decoration: line-through;
+}
+
+.item-price-new::after, .item-price-old::after {
+    content: ' \20AC';
 }
 
 
